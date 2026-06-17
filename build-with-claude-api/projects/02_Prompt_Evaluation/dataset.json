@@ -4,11 +4,11 @@
     "format": "regex"
   },
   {
-    "task": "Create a JSON CloudFormation template snippet that defines an AWS IAM role with a basic trust policy allowing EC2 to assume the role",
+    "task": "Create a JSON configuration object for an AWS Lambda function that specifies runtime as 'python3.11', memory as 256 MB, and timeout as 60 seconds",
     "format": "json"
   },
   {
-    "task": "Write a Python function that takes an AWS region code (e.g., 'us-east-1') and returns the corresponding region name (e.g., 'N. Virginia')",
+    "task": "Write a Python function that takes an AWS IAM role ARN string and returns the role name (e.g., 'arn:aws:iam::123456789012:role/MyRole' returns 'MyRole')",
     "format": "python"
   }
 ]
