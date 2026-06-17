@@ -1,0 +1,49 @@
+[
+  {
+    "prompt_inputs": {
+      "height": "180 cm",
+      "weight": "72 kg",
+      "goal": "Marathon training - maximize carbohydrate loading and sustained energy for 4000+ calorie daily intake",
+      "restrictions": "None"
+    },
+    "solution_criteria": [
+      "Meal plan totals 4000+ calories with emphasis on complex carbohydrates (at least 60% of calories)",
+      "Includes 5-6 eating occasions distributed throughout the day for sustained energy",
+      "All meals and snacks are compact and concise (brief descriptions, not elaborate recipes)"
+    ],
+    "task_description": "Write a compact, concise 1 day meal plan for a asingle athelete",
+    "scenario": "Testing with a high-endurance athlete (marathon runner) requiring 4000+ calories with emphasis on carbohydrate loading and sustained energy"
+  },
+  {
+    "prompt_inputs": {
+      "height": "180 cm",
+      "weight": "90 kg",
+      "goal": "Muscle gain and strength performance for weightlifting competition in 2 weeks",
+      "restrictions": "None"
+    },
+    "solution_criteria": [
+      "Meal plan totals 3000+ calories for the day",
+      "Protein intake is at least 180g (2g per kg body weight) distributed across meals for muscle recovery",
+      "Includes pre and post-workout nutrition timing around strength training sessions",
+      "Plan is compact and covers only 1 day with clear meal structure"
+    ],
+    "task_description": "Write a compact, concise 1 day meal plan for a asingle athelete",
+    "scenario": "Testing with a strength/power athlete (weightlifter) requiring 3000+ calories with emphasis on protein intake and muscle recovery timing"
+  },
+  {
+    "prompt_inputs": {
+      "height": "183 cm",
+      "weight": "78 kg",
+      "goal": "Optimize performance and recovery for soccer match with 2500 calorie target and balanced macronutrients",
+      "restrictions": "No dairy"
+    },
+    "solution_criteria": [
+      "Meal plan totals approximately 2500 calories with balanced macros (carbs 45-50%, protein 20-25%, fat 25-30%)",
+      "Includes pre-match, match, and post-match nutrition timing with hydration strategy",
+      "All meals and snacks are dairy-free and practical for a single day",
+      "Compact format with 4-6 eating occasions clearly structured"
+    ],
+    "task_description": "Write a compact, concise 1 day meal plan for a asingle athelete",
+    "scenario": "Testing with a sport-specific athlete (soccer player) requiring balanced macros around 2500 calories with consideration for hydration and pre/post-match nutrition windows"
+  }
+]
