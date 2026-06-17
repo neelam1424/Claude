@@ -1,14 +1,17 @@
 [
   {
-    "task": "Parse an AWS S3 bucket name from an S3 URI (e.g., 's3://my-bucket/path/to/file.txt') and extract just the bucket name",
-    "format": "regex"
+    "task": "Extract all S3 bucket names from AWS CloudTrail logs in JSON format",
+    "format": "regex",
+    "solution_criteria": "The regex should accurately match and capture S3 bucket names (format: lowercase letters, numbers, hyphens, 3-63 characters) from bucket ARNs like 'arn:aws:s3:::my-bucket-name'"
   },
   {
-    "task": "Create a JSON configuration object for an AWS Lambda function that specifies runtime as 'python3.11', memory as 256 MB, and timeout as 60 seconds",
-    "format": "json"
+    "task": "Parse an AWS EC2 instance metadata JSON response and return a dictionary with only the instance ID, instance type, and availability zone",
+    "format": "python",
+    "solution_criteria": "The function should extract three specific fields from the nested JSON metadata structure and return them in a clean dictionary, handling missing keys gracefully"
   },
   {
-    "task": "Write a Python function that takes an AWS IAM role ARN string and returns the role name (e.g., 'arn:aws:iam::123456789012:role/MyRole' returns 'MyRole')",
-    "format": "python"
+    "task": "Create a CloudFormation template JSON snippet that defines an AWS IAM role with basic EC2 permissions",
+    "format": "json",
+    "solution_criteria": "The JSON should be valid CloudFormation syntax with proper AssumeRolePolicyDocument, include ec2:* permissions, and follow AWS IAM best practices for role definition"
   }
 ]
