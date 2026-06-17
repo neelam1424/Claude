@@ -1,17 +1,32 @@
 [
   {
-    "task": "Extract all S3 bucket names from AWS CloudTrail logs in JSON format",
-    "format": "regex",
-    "solution_criteria": "The regex should accurately match and capture S3 bucket names (format: lowercase letters, numbers, hyphens, 3-63 characters) from bucket ARNs like 'arn:aws:s3:::my-bucket-name'"
+    "prompt_inputs": {},
+    "solution_criteria": [
+      "System acknowledges the absence of task requirements and requests clarification",
+      "Response identifies what information is needed to proceed (task goals, constraints, expected output format)",
+      "System maintains a helpful and professional tone despite incomplete input"
+    ],
+    "task_description": "",
+    "scenario": "Generic task with no specific description provided - test how the system handles ambiguous or missing task requirements"
   },
   {
-    "task": "Parse an AWS EC2 instance metadata JSON response and return a dictionary with only the instance ID, instance type, and availability zone",
-    "format": "python",
-    "solution_criteria": "The function should extract three specific fields from the nested JSON metadata structure and return them in a clean dictionary, handling missing keys gracefully"
+    "prompt_inputs": {},
+    "solution_criteria": [
+      "System identifies that input constraints are missing or undefined",
+      "System provides clear error message explaining what input specification is required",
+      "System suggests appropriate remediation steps for defining constraints"
+    ],
+    "task_description": "",
+    "scenario": "Task specification with empty or undefined prompt_inputs_spec - test error handling when input constraints are not clearly defined"
   },
   {
-    "task": "Create a CloudFormation template JSON snippet that defines an AWS IAM role with basic EC2 permissions",
-    "format": "json",
-    "solution_criteria": "The JSON should be valid CloudFormation syntax with proper AssumeRolePolicyDocument, include ec2:* permissions, and follow AWS IAM best practices for role definition"
+    "prompt_inputs": {},
+    "solution_criteria": [
+      "Generates at least one realistic and actionable test case idea",
+      "Test case is appropriate for evaluating a system's core functionality",
+      "Proposed test case is feasible to implement and evaluate"
+    ],
+    "task_description": "",
+    "scenario": "Minimal viable task scenario - test the system's ability to generate reasonable test ideas even with the most basic information available"
   }
 ]
